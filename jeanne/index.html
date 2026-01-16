@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jeanne Ngbo | Étudiante en Informatique</title>
+
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+      <li class="logo">
+        <a href="#intro" class="brand-logo">
+          <img src="assets/img/Q.jpg" class="circle profile-pic" alt="photo">
+        </a>
+      </li>
+      <li class="bold"><a href="#about" class="teal-text">À propos</a></li>
+      <li class="bold"><a href="#skills" class="teal-text">Compétences</a></li>
+      <li class="bold"><a href="#projects" class="teal-text">Projets</a></li>
+      <li class="bold"><a href="#education" class="teal-text">Formation</a></li>
+      
+      <li class="bold"><a href="#contact" class="teal-text">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- INTRO -->
+    <section id="intro" class="section full-height">
+      <div class="container">
+        <div class="content section-padding">
+          <h2>Bonjour, je suis <span class="teal">Jeanne Ngbo</span></h2>
+          <h5>Étudiante en <span class="typing"></span></h5>
+          <p>
+            Étudiante passionnée par la programmation, les bases de données et le développement logiciel.
+            J’aime apprendre, comprendre et créer des solutions simples à des problèmes réels.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title teal white-text">À propos</h3>
+      <div class="container flow-text">
+        <p>
+          Je suis étudiante en informatique (L2).  
+          Je m’intéresse particulièrement à la programmation, aux bases de données et au développement d’applications.
+        </p>
+        <p>
+          J’ai déjà travaillé avec PHP, HTML, Java et SQL dans mes travaux pratiques et projets académiques.
+          Mon objectif est de devenir une développeuse junior compétente.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title teal white-text">Compétences</h3>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col s4 m2"><img src="assets/img/python-logo-2.png" class="responsive-img">python</div>
+          <div class="col s4 m2"><img src="assets/img/A.jpeg" class="responsive-img">Java</div>
+          <div class="col s4 m2"><img src="assets/img/B.jpeg" class="responsive-img">SQL</div>
+          <div class="col s4 m2"><img src="assets/img/html5-300x300.jpg" class="responsive-img">HTML5</div>
+          <div class="col s4 m2"><img src="assets/img/css3.png" class="responsive-img">CSS3</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title teal white-text">Projets</h3>
+      <div class="container">
+        <div class="row">
+
+          <!-- Projet 1 -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-content">
+                <span class="card-title teal-text">UpcDonat</span>
+                <p>Site humanitaire pour enfants sans-abris. Permet aux utilisateurs de faire des dons, suivre les contributions et soutenir des initiatives locales.</p>
+                <p><b>Technologies:</b> HTML, CSS, JavaScript, PHP</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 2 -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-content">
+                <span class="card-title teal-text">MBOKATALENT</span>
+                <p>Site de recrutement permettant aux candidats et recruteurs de publier et postuler.</p>
+                <p><b>Technologies:</b> HTML, CSS, JavaScript, SQL</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title teal white-text">Formation</h3>
+      <div class="container">
+        <ul>
+          <li>
+            <a href="https://upc.ac.cd/" target="_blank">Université Protestante au Congo (UPC)</a>
+          </li>
+        </ul>
+        <p>Licence en Science Informatique – en cours</p>
+      </div>
+    </section>
+
+  
+    <!-- CONTACT -->
+    <section id="contact" class="section scrollspy">
+      <h3 class="page-title teal white-text">Contact</h3>
+      <div class="container">
+        <p>Email : <b>jeannengbo3@gmail.com</b></p>
+        <p>GitHub : <b>github.com/jeanne2007</b></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script>
+    new Typed('.typing', {
+      strings: ["Informatique", "Programmation", "Bases de données"],
+      typeSpeed: 80,
+      backSpeed: 40,
+      loop: true
+    });
+  </script>
+
+</body>
+</html>
